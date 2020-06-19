@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightpink;
+}
+
+div {
+    background: lightseagreen;
+    border-radius: 10px;
+    height: 15vh;
+    transition: 1s;
+    background-size: cover;
+}
+
+.tabla {
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    background: lightpink;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.intors {
+    transform: rotateY(180deg);
+}
+
+.intors-poza {
+    background-image: url(Images/vvd.jpg);
+    background-size: cover;
+}
+
+button {
+    padding: 15px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
